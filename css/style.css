@@ -1,0 +1,62 @@
+/*Preset*/
+@import 'normalize.css';
+
+/*Custom fonts*/
+@font-face{
+	font-family: "Chunk";
+	src: url('../assets/fonts/Chunk.ttf');
+}
+@font-face{
+	font-family: "Roboto";
+	src: url('../assets/fonts/Roboto-Thin.ttf');
+}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	display: table;
+	background-color: #2c3e50;
+}
+
+#container{
+	display: table-cell;
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #27ae60;
+}
+
+.merge{
+	-webkit-transition-property: font-size;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    transition-property: font-size;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+	
+	font-family: Chunk;
+	font-size: 60px;
+}
+
+.pumped_merge{
+	-webkit-transition-property: font-size;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease;
+    transition-property: font-size;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+	
+	font-family: Chunk;
+	font-size: 70px;
+}
+
+#project{
+	font-size: 60px;
+	font-family: Roboto;
+}
+
+#me{
+	font-size: 25px;
+	font-family: Roboto;
+}
